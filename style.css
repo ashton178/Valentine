@@ -2,7 +2,7 @@ body {
   margin: 0;
   height: 100vh;
   font-family: Arial;
-  background-image: url("https://images.unsplash.com/photo-1518895949257-7621c3c786d7");
+  background-image: url("bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -42,3 +42,4 @@ textarea {
 .hidden {
   display: none;
 }
+
