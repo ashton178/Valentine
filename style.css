@@ -2,7 +2,7 @@ body {
   margin: 0;
   height: 100vh;
   font-family: Arial;
-  background-image: url("raw.https://github.com/ashton178/Valentine/blob/main/bg.jpg");
+  background-image: url("https://raw.githubusercontent.com/ashton178/Valentine/refs/heads/main/bg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -42,6 +42,7 @@ textarea {
 .hidden {
   display: none;
 }
+
 
 
 
