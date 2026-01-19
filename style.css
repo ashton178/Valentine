@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial;
+  background-image: url("https://images.unsplash.com/photo-1518895949257-7621c3c786d7");
+  background-size: cover;
+  background-position: center;
+}
+
+.page {
+  height: 100vh;
+  background: rgba(255,255,255,0.85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.teddy {
+  width: 180px;
+}
+
+button {
+  width: 200px;
+  padding: 15px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  background: #ff4d6d;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}

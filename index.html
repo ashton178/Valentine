@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine ❤️</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("79BfdftC2Rd-zbWQn");
+  })();
+</script>
+
+</head>
+<body>
+
+<div class="page" id="mainPage">
+  <img src="https://i.imgur.com/7yUvePI.png" class="teddy">
+  <h1>Will You Be My Valentine? 💖</h1>
+
+  <button onclick="showYes()">Yes</button>
+  <button onclick="showNo()">No</button>
+</div>
+
+<div class="page hidden" id="yesPage">
+  <h2>How do you want your Valentine’s Day to be? 💌</h2>
+  <textarea id="message" placeholder="Type here..."></textarea>
+  <button onclick="sendEmail()">Send ❤️</button>
+</div>
+
+<div class="page hidden" id="noPage">
+  <h2>This option is not available 😅</h2>
+  <button onclick="redirectToYes()">Click Here</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
